@@ -1,0 +1,60 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Diretórios gerados por pacotes
+node_modules/
+jspm_packages/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Ambiente
+.env
+.env.local
+.env.*.local
+
+# Arquivos de build e produção
+/build
+/dist
+/out
+
+# Testes e relatórios
+/coverage
+*.lcov
+
+# Cache de pacotes
+/.npm
+/.yarn/cache
+.pnp.*
+.yarn-integrity
+.next/
+
+# Configurações específicas do editor
+.idea/
+.vscode/
+*.swp
+
+# Arquivos temporários e backups
+*.tmp
+*.bak
+*.old
+*.orig
+*.pid
+*.seed
+*.pid.lock
+
+# Configurações de lockfile
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Outras pastas e arquivos específicos de frameworks
+# Exemplo: para projetos usando Nuxt.js ou Gatsby
+.nuxt/
+.svelte-kit/
+functions/.cache/
