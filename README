@@ -1,0 +1,4 @@
+Para gerar a imagem docker deverá utilizar o comando: docker build -t payment-gateway-mock-api .
+
+Para executar a aplicação em Node deverá utilizar o comando: npm run start
+Para executar a aplicação no container docker: docker run -p 3000:3000 payment-gateway-mock-api
